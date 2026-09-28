@@ -1,7 +1,7 @@
 variable "region" {
   description = "AWS region to deploy the shared network into."
   type        = string
-  default     = "us-east-1"
+  default     = "us-east-2"
 }
 
 variable "cost_center" {
